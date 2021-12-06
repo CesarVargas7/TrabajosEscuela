@@ -16,8 +16,8 @@
             <main>
                 <?php
                     if(array_key_exists('name', $_SESSION)) {
-                ?>
                         $nombre = $_SESSION['name'];
+                ?>
                         <h2>Hola <?php echo $nombre;?></h2>                   <!-- Nombre completo del usuario -->
                         <ul>
                             <li><?php echo $_SESSION['email']; ?></li>
@@ -27,13 +27,16 @@
                 <?php
                     }
                     else {
-                        echo "Por favor inicie sesión.";
-                    }
-                    ?>
+                        echo "Por favor inicie sesión o registrese.";
+                ?>
+                    <li><a href="login.php"><span><img class="icono" src="../IMAGENES/Iconos/salir.png"></span>Iniciar sesión</a></li>
+                    <li><a href="signup.php"><span><img class="icono" src="../IMAGENES/Iconos/.png"></span>Registrarse</a></li>
+                <?php
+                }
+                ?>
             </main>
-            <footer>
-                <?php include "footer.html"; ?>          <!-- Incluye la plantilla del footer-->
-            </footer>
+            
+            <?php include "footer.html"; ?>          <!-- Incluye la plantilla del footer-->
         </div>
     </body>
 </html>

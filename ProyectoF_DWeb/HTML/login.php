@@ -3,11 +3,7 @@
 
 <body>
     <div class="contenedor">
-        <header>
-            <nav>
-                <p>Xport</p>
-            </nav>
-        </header>
+    <?php include "header-html5.html"; ?>
 
         <main>
             <section class="log container">
@@ -25,7 +21,6 @@
                 </form>
             </section>
         </main>
-        <footer>
+        
         <?php include "footer.html"; ?>          <!-- Incluye la plantilla del footer-->
-        </footer>
 </body>
