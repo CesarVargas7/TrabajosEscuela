@@ -15,6 +15,7 @@
                         <label for="password">Contraseña *</label>
                         <input type="text" id="password" name="password" class="form-control" required placeholder="Pon tu contraseña">
                     </div>
+                    <br>
                     <div class="row">
                         <button type="submit" class="btn btn-default">Entrar</button>
                     <div>

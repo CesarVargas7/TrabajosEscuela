@@ -25,10 +25,8 @@
                         <td><a href="tkd.php"><img src="../IMAGENES/Categorias/tkd.png">Tae Kwon Do</a></td>
                     </tr>  
                 </table>
-            </main>
-            <footer>
+            </main>       
                 <?php include "footer.html"; ?>          <!-- Incluye la plantilla del footer-->
-            </footer>
         </div>
     </body>
 </html>

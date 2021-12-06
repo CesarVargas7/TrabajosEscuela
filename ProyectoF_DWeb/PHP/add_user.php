@@ -14,7 +14,7 @@ if($_POST) {
 	if($query) {
 		session_start();
 		$_SESSION['name'] = $name;
-		header('Location: ../HTML/login.php');
+		header('Location: ../HTML/index.php');
 	}
 	else{
 		echo "Algo salió mal";
