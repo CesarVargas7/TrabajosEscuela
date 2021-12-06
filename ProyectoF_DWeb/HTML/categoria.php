@@ -20,9 +20,9 @@
                         <td><a href="gimnasia.php"><img src="../IMAGENES/Categorias/gimnasia.png">Gimnasia Olimpica</a></td>
                     </tr>
                     <tr>
-                        <td><a href=""><img src="../IMAGENES/Categorias/halterofilia.png">Halterofilia</a></td>
-                        <td><a href=""><img src="../IMAGENES/Categorias/lucha.png">Lucha grecoromana</a></td>
-                        <td><a href=""><img src="../IMAGENES/Categorias/tkd.png">Tae Kwon Do</a></td>
+                        <td><a href="halterofilia.php"><img src="../IMAGENES/Categorias/halterofilia.png">Halterofilia</a></td>
+                        <td><a href="lucha.php"><img src="../IMAGENES/Categorias/lucha.png">Lucha grecoromana</a></td>
+                        <td><a href="tkd.php"><img src="../IMAGENES/Categorias/tkd.png">Tae Kwon Do</a></td>
                     </tr>  
                 </table>
             </main>
