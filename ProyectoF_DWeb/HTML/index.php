@@ -1,8 +1,7 @@
 <?php 
 session_start();
-include "head.html";
-if (array_key_exists('name', ))
-?>                                <!-- Incluye la plantilla del head y datos del comienzo del codigo-->
+include "head.html"; 
+?>                               
 
     <body>
         <div class="contenedor">
