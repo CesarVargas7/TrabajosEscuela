@@ -6,10 +6,10 @@
                 <nav>
                     <p><a href="index.php">Xport</a></p>
                     <ul class="menu">
-                        <li><a href="chat.php"><span><img class="icono" src="../IMAGENES/Iconos/chat.png"></span>Chat</a></li>
-                        <li><a href="categoria.php"><span><img class="icono" src="../IMAGENES/Iconos/categorias.png"></span>Departamentos</a></li>                
-                        <li><a href="perfil.php"><span><img class="icono" src="../IMAGENES/Iconos/perfil.png"></span>Perfil</a></li>
-                        <li><a href="login.php"><span><img class="icono" src="../IMAGENES/Iconos/salir.png"></span>Salir</a></li>
+                        <li><a href="chat.php"><span><img class="icono" src="../../IMAGENES/Iconos/chat.png"></span>Chat</a></li>
+                        <li><a href="categoria.php"><span><img class="icono" src="../../IMAGENES/Iconos/categorias.png"></span>Departamentos</a></li>                
+                        <li><a href="perfil.php"><span><img class="icono" src="../../IMAGENES/Iconos/perfil.png"></span>Perfil</a></li>
+                        <li><a href="login.php"><span><img class="icono" src="../../IMAGENES/Iconos/salir.png"></span>Salir</a></li>
                     </ul>
                 </nav>
             </header>
