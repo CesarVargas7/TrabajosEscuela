@@ -14,12 +14,22 @@
                 </nav>
             </header>
             <main>
-                <h2><?php echo $_SESSION['name', 'lastName']; ?></h2>                   <!-- Nombre completo del usuario -->
-                <ul>
-                    <li><?php echo $_SESSION['email']; ?></li>
-                    <li><a href="login.php">Cerrar sesión</a></li>
-                </ul>
-                <button onclick="">Eliminar cuenta</button>
+                <?php
+                    if(array_key_exists('name', $_SESSION)) {
+                ?>
+                        $nombre = $_SESSION['name'];
+                        <h2>Hola <?php echo $nombre;?></h2>                   <!-- Nombre completo del usuario -->
+                        <ul>
+                            <li><?php echo $_SESSION['email']; ?></li>
+                            <li><a href="login.php">Cerrar sesión</a></li>
+                        </ul>
+                        <button onclick="">Eliminar cuenta</button>
+                <?php
+                    }
+                    else {
+                        echo "Por favor inicie sesión.";
+                    }
+                    ?>
             </main>
             <footer>
                 <?php include "footer.html"; ?>          <!-- Incluye la plantilla del footer-->
