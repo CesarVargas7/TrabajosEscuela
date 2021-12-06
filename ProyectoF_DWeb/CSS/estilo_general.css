@@ -109,3 +109,6 @@ p > hr{
     table{width: 95%;}
 }
 
+input {
+    font-size: 12pt;
+}

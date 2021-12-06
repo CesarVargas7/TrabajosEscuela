@@ -8,13 +8,13 @@ if($_POST) {
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 
-	$sql = "INSERT INTO `register`(`name`, `lastName`, `email`, `password`) VALUES ('".$name."','".$lastName."','".$email."','".$password."')";
+	$sql = "INSERT INTO `register`(`name`, `lastName`, `email`, `password`) VALUES ('".$nombre."','".$apellido."','".$email."','".$password."')";
 
 	$query = mysqli_query($conn,$sql);
 	if($query) {
 		session_start();
 		$_SESSION['name'] = $name;
-		header('Location: login.php');
+		header('Location: ../HTML/login.php');
 	}
 	else{
 		echo "Algo salió mal";
